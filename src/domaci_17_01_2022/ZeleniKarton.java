@@ -74,7 +74,7 @@ public class ZeleniKarton {
 
 	public void stampaj() {
 		System.out.println(this.nazivPredmeta + " - " + this.ocena);
-		if (this.polozio()) {
+		if (this.polozio() == true) {
 			System.out.println("Student: " + this.imePrezimeStudenta + ", " + this.brojIndeksa);
 			System.out.println("Profesor: " + this.imePrezimeProf);
 		} else {
